@@ -2,7 +2,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 119px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 1vh;
 }
 
 body {
@@ -15,27 +17,26 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 18px;
+    gap: 1vw;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 48px;
+    gap: 2vw;
 }
 
 .nav-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 18px;
+    gap: 1vw;
     border-left: 1px solid #EEEEEE;
-    padding-left: 18px;
+    padding-left: 1vw;
 }
 
 .nav-links a {
-    font-weight: 400;
     text-decoration: none;
 }
 
