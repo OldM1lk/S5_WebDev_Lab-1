@@ -1,16 +1,14 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #495367;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 6vw;
-    margin-right: 6vw;
-    margin-top: 1vh;
-}
-
-body {
-    font-family: Roboto, ChangaOne, Arial, sans-serif;
-    font-size: 16px;
-    color: #495367;
+    margin: 1vh 6vw;
 }
 
 nav {
@@ -22,25 +20,67 @@ nav {
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 2.5vw;
 }
 
 .nav-icons {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 1vw;
     border-left: 1px solid #EEEEEE;
     padding-left: 1vw;
 }
 
-.nav-links a {
-    text-decoration: none;
-}
-
 .nav-links a.active {
     color: #8A53FF;
-    text-decoration: none;
+}
+
+.hero {
+    height: 60vh;
+    background-image: url("../assets/img/hero-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 7vw;
+}
+
+.hero-content h1 {
+    font-family: "Changa One", sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 1vh;
+}
+
+.hero-content h1 .accent {
+    color: #8A53FF;
+}
+
+.hero-content p {
+    font-size: 1.375rem;
+    line-height: 1.6;
+    margin-bottom: 4vh;
+}
+
+.hero-cta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.hero-cta button {
+    color: #FFFFFF;
+    background-color: #8A53FF;
+    padding: 0.75em 1.5em;
+    border-radius: 0.25em;
+    border: none;
+}
+
+.hero-cta-icon-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
 }
