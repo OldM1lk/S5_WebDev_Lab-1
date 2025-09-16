@@ -18,3 +18,10 @@
     align-items: center;
     gap: 0.5vw;
 }
+
+.featured-cta-button {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-top: 3vh;
+}

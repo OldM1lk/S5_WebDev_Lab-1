@@ -1,12 +1,11 @@
 .hero {
-    height: 70vh;
     background-image: url("../assets/img/hero-background-image.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 8vw;
+    padding: 15vh 8vw;
 }
 
 .hero-content h1 {
@@ -25,4 +24,5 @@
     font-size: 1.375rem;
     line-height: 1.6;
     margin-bottom: 4vh;
+    color: #434343;
 }
