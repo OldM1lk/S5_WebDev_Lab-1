@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25vh 8vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border-left: 1px solid #EEEEEE;
+    padding-left: 1vw;
+}
+
+.nav-links a.active {
+    color: #8A53FF;
+}
