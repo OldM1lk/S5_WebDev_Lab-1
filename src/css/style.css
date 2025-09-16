@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1vh 6vw;
+    margin: 1.25vh 8vw;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 2.5vw;
+    gap: 3vw;
 }
 
 .nav-icons {
@@ -37,14 +37,14 @@ nav {
 }
 
 .hero {
-    height: 60vh;
+    height: 70vh;
     background-image: url("../assets/img/hero-background-image.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 7vw;
+    padding: 0 8vw;
 }
 
 .hero-content h1 {
@@ -52,6 +52,7 @@ nav {
     font-size: 4.5rem;
     line-height: 1.2;
     margin-bottom: 1vh;
+    color: #434343;
 }
 
 .hero-content h1 .accent {
