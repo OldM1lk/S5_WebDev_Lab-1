@@ -1,12 +1,12 @@
 .featured {
-    padding: 14vh 8vw;
+    padding: 7% 9%;
 }
 
-.featured-container {
+.featured__container {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 5vw;
+    gap: 5%;
 }
 
 .featured img {
@@ -14,20 +14,20 @@
     object-fit: cover;
 }
 
-.featured-text {
+.featured__text {
     display: flex;
     flex-direction: column;
-    padding-top: 4vh;
+    padding-top: 3%;
 }
 
-.featured-text h2 {
+.featured__text h2 {
     font-family: "Changa One", sans-serif;
     font-size: 2.5rem;
-    line-height: 1.6;
+    line-height: 1.4;
     color: #434343;
 }
 
-.featured-text h3 {
+.featured__text h3 {
     font-size: 1.125rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -35,12 +35,12 @@
 
 }
 
-.featured-text p {
+.featured__text p {
     font-size: 1.125rem;
     line-height: 1.75;
     color: #434343;
 }
 
-.featured-text a {
+.featured__text a {
     color: #8A53FF;
 }
