@@ -2,30 +2,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.25vh 8vw;
+    margin: 0.75rem 8%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1vw;
+    gap: 1rem;
 }
 
-.nav-links {
+.nav__links {
     display: flex;
     align-items: center;
-    gap: 3vw;
+    gap: 3rem;
 }
 
-.nav-icons {
+.nav__icons {
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 1rem;
     border-left: 1px solid #EEEEEE;
-    padding-left: 1vw;
+    padding-left: 1rem;
 }
 
-.nav-links a.active {
+.nav__links--active {
     color: #8A53FF;
 }
