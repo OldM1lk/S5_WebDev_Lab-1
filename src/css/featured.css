@@ -10,6 +10,9 @@
 }
 
 .featured img {
+    max-width: 47%;
+    height: auto;
+    display: block;
     border-radius: 2%;
     object-fit: cover;
 }

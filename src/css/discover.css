@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    padding-top: 4%;
+    padding: 4% 4%;
 }
 
 .discover-card__card {

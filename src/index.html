@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/featured.css">
     <link rel="stylesheet" href="css/discover.css">
+    <link rel="stylesheet" href="css/share.css">
 </head>
 <body>
 <header>
@@ -17,13 +18,13 @@
         <img src="assets/svg/header-logo.svg" alt="Logo" width="100" height="64">
     </a>
     <nav class="nav">
-        <div class="nav-links">
-            <a href="index.html" class="nav-links active">Home</a>
+        <div class="nav__links">
+            <a href="index.html" class="nav__links--active">Home</a>
             <a>Story</a>
             <a>Gallery</a>
             <a>Contact Us</a>
         </div>
-        <div class="nav-icons">
+        <div class="nav__icons">
             <a>
                 <img src="assets/svg/header-search-icon.svg" alt="Search" width="22" height="22">
             </a>
@@ -35,16 +36,16 @@
 </header>
 <main>
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero__content">
             <h1>
                 <span class="accent">Let’s talk</span> about <br>
                 your next trip!
             </h1>
             <p>Share your favorite travel destination and we will <br>
                 feature it in our next blog!</p>
-            <div class="hero-cta">
-                <button>Share your story</button>
-                <a class="hero-cta-icon-button" href="#featured">
+            <div class="hero__cta">
+                <button class="hero__cta-button">Share your story</button>
+                <a class="hero__cta-icon-button" href="#featured">
                     <img src="assets/svg/watch-highlights-icon.svg" alt="Watch Highlights" width="36" height="36">
                     <span>Watch highlights</span>
                 </a>
@@ -52,13 +53,14 @@
         </div>
     </section>
     <section class="featured" id="featured">
-        <div class="featured-container">
-            <img src="assets/img/featured-image.jpg" alt="Featured image" width="600vw" height="340vh">
-            <div class="featured-text">
+        <div class="featured__container">
+            <img src="assets/img/featured-image.jpg" alt="Featured image">
+            <div class="featured__text">
                 <h3>FEATURED DESTINATION</h3>
                 <h2>Our swiss adventure blog</h2>
-                <p>Visiting the swiss alps? Want to know the requirements on travelling to <br> Switzerland during the pandemic? Our blog might help!</p>
-                <div class="featured-cta-button">
+                <p>Visiting the swiss alps? Want to know the requirements on travelling to <br> Switzerland during the
+                    pandemic? Our blog might help!</p>
+                <div class="featured__cta-button">
                     <img src="assets/svg/watch-now-icon.svg" alt="Watch Now" width="36" height="36">
                     <a>Watch now</a>
                 </div>
@@ -69,27 +71,45 @@
         <h3>JOIN OUR ADVENTURES</h3>
         <h2>Discover the world with us</h2>
         <div class="discover-cards">
-            <div class="discover-card">
+            <div class="discover-card__card">
                 <img src="assets/img/iceland-card-image.jpg" alt="Iceland" width="300vw" height="325vh">
                 <h4>Iceland</h4>
                 <p>Discover</p>
             </div>
-            <div class="discover-card">
+            <div class="discover-card__card">
                 <img src="assets/img/italy-card-image.jpg" alt="Iceland" width="300vw" height="325vh">
                 <h4>Italy</h4>
                 <p>Discover</p>
             </div>
-            <div class="discover-card">
+            <div class="discover-card__card">
                 <img src="assets/img/dubai-card-image.jpg" alt="Iceland" width="300vw" height="325vh">
                 <h4>Dubai</h4>
                 <p>Discover</p>
             </div>
-            <div class="discover-card">
+            <div class="discover-card__card">
                 <img src="assets/img/patagonia-card-image.jpg" alt="Iceland" width="300vw" height="325vh">
                 <h4>Patagonia</h4>
                 <p>Discover</p>
             </div>
         </div>
+    </section>
+    <section class="share">
+        <h3>LET'S BUILD A COMMUNITY</h3>
+        <h2>Join our next destination</h2>
+        <form class="share-form">
+            <h4>Share your travels</h4>
+            <p>Suggest a new travel destination that you want to see and we will feature it <br> in our blog.</p>
+            <input type="text" placeholder="Destination name">
+            <select>
+                <option value="">Country of destination</option>
+            </select>
+            <input type="text" placeholder="Your name">
+            <select>
+                <option value="">Shooting category</option>
+            </select>
+            <textarea rows="4" placeholder="Describe what kind of photos you want to focus on"></textarea>
+            <button>Submit</button>
+        </form>
     </section>
 </main>
 </body>
