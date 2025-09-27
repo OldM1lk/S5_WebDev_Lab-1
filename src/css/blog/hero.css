@@ -1,0 +1,59 @@
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 3% 17%;
+}
+
+.hero h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #8A53FF;
+}
+
+.hero h2 {
+    font-family: "Changa One", sans-serif;
+    font-size: 3.125rem;
+    color: #434343;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.hero a {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #A2A7B1;
+}
+
+.hero video {
+    border-radius: 8px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.hero__container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__container-header__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__container-header-author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero__container-header-author__text {
+    display: flex;
+    flex-direction: column;
+}
