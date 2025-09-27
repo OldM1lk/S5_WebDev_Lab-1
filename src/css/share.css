@@ -52,6 +52,10 @@
     border-radius: 0.2rem;
     font-size: 1rem;
     font-family: Roboto, sans-serif;
-    color: #576074;
     resize: none;
+}
+
+.share-form select {
+    background: white;
+    color: #00000099;
 }
