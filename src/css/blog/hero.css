@@ -1,7 +1,6 @@
 .hero {
     display: flex;
     align-items: center;
-    padding: 3% 17%;
 }
 
 .hero h3 {
