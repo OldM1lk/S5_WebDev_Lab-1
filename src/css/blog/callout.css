@@ -1,0 +1,8 @@
+.callout {
+    display: flex;
+}
+
+.callout-images {
+    display: flex;
+    gap: 0.5rem;
+}
