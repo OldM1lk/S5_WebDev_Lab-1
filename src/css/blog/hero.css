@@ -3,31 +3,6 @@
     align-items: center;
 }
 
-.hero h3 {
-    font-size: 1.125rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #8A53FF;
-}
-
-.hero h2 {
-    font-family: "Changa One", sans-serif;
-    font-size: 3.125rem;
-    color: #434343;
-    font-weight: 400;
-    letter-spacing: -2px;
-}
-
-.hero a {
-    font-size: 0.875rem;
-    font-style: italic;
-    color: #A2A7B1;
-}
-
-.hero video {
-    border-radius: 8px;
-}
-
 .hero__container {
     display: flex;
     flex-direction: column;
@@ -35,24 +10,49 @@
     gap: 1rem;
 }
 
-.hero__container-header {
+.hero__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero__container-header__text {
+.hero__header-text {
     display: flex;
     flex-direction: column;
 }
 
-.hero__container-header-author {
+.hero__category {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #8A53FF;
+}
+
+.hero__title {
+    font-family: "Changa One", sans-serif;
+    font-size: 3.125rem;
+    color: #434343;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.hero__author {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.hero__container-header-author__text {
+.hero__author-text {
     display: flex;
     flex-direction: column;
+}
+
+.hero__author-job-title {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #A2A7B1;
+}
+
+.hero__video {
+    border-radius: 8px;
 }
