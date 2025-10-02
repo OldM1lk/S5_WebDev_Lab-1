@@ -1,0 +1,37 @@
+.highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.highlights__title {
+    font-family: Changa One, sans-serif;
+    font-size: 2rem;
+    line-height: 36px;
+    color: #434343;
+}
+
+.highlights__row {
+    display: flex;
+    gap: 1rem;
+}
+
+.highlight__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.highlight__image {
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.highlight__text {
+    font-style: Italic;
+    font-size: 0.875rem;
+    line-height: 22px;
+    color: #828181;
+}
