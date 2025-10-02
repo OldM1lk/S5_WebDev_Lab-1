@@ -1,0 +1,16 @@
+.disclaimer {
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    padding: 1rem 1.75rem;
+}
+
+.disclaimer__text {
+    line-height: 26px;
+}
+
+.disclaimer__text-bold {
+    font-weight: 700;
+    line-height: 26px;
+    color: #434343;
+}
