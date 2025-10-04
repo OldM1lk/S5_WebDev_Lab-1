@@ -1,0 +1,61 @@
+.share {
+    background-image: url("../assets/img/share-background-image.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6% 8%;
+}
+
+.share h2 {
+    font-family: "Changa One", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    color: #434343;
+}
+
+.share h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #8A53FF;
+}
+
+.share-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.share-form h4 {
+    font-family: "Changa One", sans-serif;
+    font-size: 1.5rem;
+    color: #434343;
+}
+
+.share-form p {
+    font-size: 1.125rem;
+    line-height: 2;
+    color: #576074;
+}
+
+.share-form input,
+.share-form select,
+.share-form textarea {
+    width: 100%;
+    padding: 1rem 0.9rem;
+    border: 2px solid #E6E9EE;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+    resize: none;
+}
+
+.share-form select {
+    background: white;
+    color: #00000099;
+}

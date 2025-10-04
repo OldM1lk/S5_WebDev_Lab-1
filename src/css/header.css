@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.75rem 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-left: 1px solid #EEEEEE;
+    padding-left: 1rem;
+}
+
+.nav__links--active {
+    color: #8A53FF;
+}
